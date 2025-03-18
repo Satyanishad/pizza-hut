@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Hut Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+</head>
+<body>
+   <!-- Header Section -->
+  <header class="header">
+    <div class="header-container">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="shourav-sheikh-xLfqx4Psf94-unsplash.jpg" alt="Pizza Logo">
+      </div>
+
+      <!-- Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#offers deals" class="nav-link">Offers Deals</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          
+        </ul>
+      </nav>
+
+  
+      <!-- Order Button -->
+      <a href="#" class="order-btn">Order Now</a>
+
+      <!-- Add to Cart Icon -->
+      <div class="cart-icon">
+        <a href="#" aria-label="Cart">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count" id="cartCount">0</span> <!-- Dynamic Cart Count -->
+        </a>
+      </div>
+
+      <!-- Hamburger Menu for Mobile -->
+      <div class="hamburger-menu" id="hamburgerMenu" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>Hot & Fresh Pizzas Delivered to Your Doorstep!</h1>
+      <p>Order now and get 20% off your first order!</p>
+      <a href="#order" class="hero-btn">Order Now</a>
+      <div class="search-bar">
+        <input type="text" placeholder="Enter your location to find the nearest Pizza Hut">
+        <button><i class="fas fa-search"></i></button>
+      </div>
+    </div>
+  </section>
+   <!-- Deals Section -->
+   <section class="deals-section">
+    <h2>Hot Deals</h2>
+    <div class="coverflow-container">
+      <div class="coverflow">
+        <div class="deal-card">
+          <img src="pranjall-kumar-sejqj6Eaqe8-unsplash.jpg" alt="Deal 1">
+          <h3>2 Large Pizzas</h3>
+          <p>Get 2 large pizzas for just $20!</p>
+          <a href="#" class="btn">Grab Deal</a>
+        </div>
+
+        <div class="deal-card">
+          <img src="chad-montano-MqT0asuoIcU-unsplash.jpg" alt="Deal 2">
+          <h3>Family Combo</h3>
+          <p>1 Large Pizza + 1 Garlic Bread + 1 Drink for $25!</p>
+          <a href="#" class="btn">Grab Deal</a>
+        </div>
+
+        <div class="deal-card">
+          <img src="fatima-akram-uU0Anw-8Vsg-unsplash (1).jpg" alt="Deal 3">
+          <h3>Weekend Special</h3>
+          <p>50% off on all medium pizzas!</p>
+          <a href="#" class="btn">Grab Deal</a>
+        </div>
+
+        <div class="deal-card">
+          <img src="foad-roshan-Y6OgisiGBjM-unsplash.jpg" alt="Deal 4">
+          <h3>Weekend Special</h3>
+          <p>50% off on all medium pizzas!</p>
+          <a href="#" class="btn">Grab Deal</a>
+        </div>
+
+        <div class="deal-card">
+          <img src="hoja-studio-Thw3nleO3cM-unsplash.jpg" alt="Deal 5">
+          <h3>Weekend Special</h3>
+          <p>50% off on all medium pizzas!</p>
+          <a href="#" class="btn">Grab Deal</a>
+        </div>
+
+        <div class="deal-card">
+          <img src="klara-kulikova-jvWZYnxBDlQ-unsplash.jpg" alt="Deal 6">
+          <h3>Weekend Special</h3>
+          <p>50% off on all medium pizzas!</p>
+          <a href="#" class="btn">Grab Deal</a>
+        </div>
+
+        <div class="deal-card">
+          <img src="kristina-bratko-nP11TkjxJ7s-unsplash.jpg" alt="Deal 7">
+          <h3>Weekend Special</h3>
+          <p>50% off on all medium pizzas!</p>
+          <a href="#" class="btn">Grab Deal</a>
+        </div>
+
+        <div class="deal-card">
+          <img src="lum3n-cHc5H3_FKhs-unsplash.jpg" alt="Deal 8">
+          <h3>Buy 1 Get 1 Free</h3>
+          <p>Buy 1 large pizza, get 1 free!</p>
+          <a href="#" class="btn">Grab Deal</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-highlights">
+    <h2 class="section-title">Our Best Sellers</h2>
+    <div class="menu-grid">
+      <!-- Pizza Item 1 -->
+      <div class="menu-item">
+        <img src="sahal-hameed-Nq9KlQTTEbQ-unsplash.jpg" alt="Margherita Pizza" class="pizza-image">
+        <h3 class="pizza-name">Margherita</h3>
+        <p class="pizza-description">Classic tomato sauce, mozzarella, and basil.</p>
+        <p class="pizza-price">$12.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+  
+      <!-- Pizza Item 2 -->
+      <div class="menu-item">
+        <img src="saundarya-srinivasan-60nzTP7_hMQ-unsplash.jpg" alt="Pepperoni Pizza" class="pizza-image">
+        <h3 class="pizza-name">Pepperoni</h3>
+        <p class="pizza-description">Tomato sauce, mozzarella, and spicy pepperoni.</p>
+        <p class="pizza-price">$14.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+  
+      <!-- Pizza Item 3 -->
+      <div class="menu-item">
+        <img src="saahil-khatkhate-kfDsMDyX1K0-unsplash.jpg" alt="Veggie Pizza" class="pizza-image">
+        <h3 class="pizza-name">Veggie Delight</h3>
+        <p class="pizza-description">Tomato sauce, mozzarella, mushrooms, bell peppers, and olives.</p>
+        <p class="pizza-price">$13.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+  
+      <!-- Pizza Item 4 -->
+      <div class="menu-item">
+        <img src="pranjall-kumar-sejqj6Eaqe8-unsplash.jpg" alt="BBQ Chicken Pizza" class="pizza-image">
+        <h3 class="pizza-name">BBQ Chicken</h3>
+        <p class="pizza-description">BBQ sauce, mozzarella, chicken, and onions.</p>
+        <p class="pizza-price">$15.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+
+</section>
+
+<section class="why-choose-us">
+  <h2>Why Choose Us? 🍕</h2>
+  <div class="usp-container">
+      <div class="usp-box">
+          <i class="fas fa-pizza-slice"></i>
+          <h3>Fresh Ingredients</h3>
+          <p>We use the freshest ingredients to ensure the best taste.</p>
+      </div>
+      <div class="usp-box">
+          <i class="fas fa-truck"></i>
+          <h3>Fast Delivery</h3>
+          <p>Your pizza arrives hot and fresh, straight to your door.</p>
+      </div>
+      <div class="usp-box">
+          <i class="fas fa-star"></i>
+          <h3>Top Ratings</h3>
+          <p>Our customers love us! Rated 5 stars for quality and service.</p>
+      </div>
+      <div class="usp-box">
+          <i class="fas fa-medal"></i>
+          <h3>Award Winning</h3>
+          <p>Recognized globally for the best pizza experience.</p>
+      </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials">
+  <h2>What Our Customers Say</h2>
+  <div class="testimonial-container">
+    <!-- Testimonial 1 -->
+    <div class="testimonial-card active">
+      <img src="linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg" alt="Customer 1" class="customer-img">
+      <p class="testimonial-text">"The best pizza I've ever had! Fresh ingredients and fast delivery. Highly recommended!"</p>
+      <p class="customer-name">- John Doe</p>
+      <div class="stars">★★★★★</div>
+    </div>
+    <!-- Testimonial 2 -->
+    <div class="testimonial-card">
+      <img src="janko-ferlic-G-jo31ESuRE-unsplash.jpg" alt="Customer 2" class="customer-img">
+      <p class="testimonial-text">"Amazing flavors and great service. I order every weekend!"</p>
+      <p class="customer-name">- Jane Smith</p>
+      <div class="stars">★★★★☆</div>
+    </div>
+    <!-- Testimonial 3 -->
+    <div class="testimonial-card">
+      <img src="hannah-nicollet-JQ2D4I-2eyw-unsplash.jpg" alt="Customer 3" class="customer-img">
+      <p class="testimonial-text">"Affordable prices and delicious pizzas. My go-to place for dinner!"</p>
+      <p class="customer-name">- Mike Johnson</p>
+      <div class="stars">★★★★★</div>
+    </div>
+  </div>
+  <!-- Navigation Dots -->
+  <div class="dots">
+    <span class="dot active" onclick="showTestimonial(0)"></span>
+    <span class="dot" onclick="showTestimonial(1)"></span>
+    <span class="dot" onclick="showTestimonial(2)"></span>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-content">
+    <h2 class="cta-headline">Hungry? Let's Get Started!</h2>
+    <p class="cta-subheadline">Order your favorite pizza now and enjoy a 20% discount on your first order!</p>
+    <div class="cta-buttons">
+      <a href="#" class="cta-button primary">Order Now</a>
+      <a href="#" class="cta-button secondary">Call Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <p>Have questions or feedback? We'd love to hear from you!</p>
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Logo Section -->
+    <div class="footer-logo">
+      <img src="saundarya-srinivasan-60nzTP7_hMQ-unsplash.jpg" alt="Pizza Logo" class="logo">
+      <p>Fresh, Hot, and Delivered to Your Door!</p>
+    </div>
+
+    <!-- Quick Links Section -->
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Information Section -->
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>123 Pizza Street, City</li>
+        <li>Phone: (123) 456-7890</li>
+        <li>Email: info@pizzadelivery.com</li>
+      </ul>
+    </div>
+
+    <!-- Social Media Section -->
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <!-- Newsletter Section -->
+    <div class="footer-newsletter">
+      <h3>Subscribe to Our Newsletter</h3>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Copyright Section -->
+  <div class="footer-bottom">
+    <p>&copy; 2025 Pizza Delivery. All Rights Reserved.</p>
+  </div>
+</footer>
+ 
+
+<script src="script.js"></script>
+ 
+ 
+</body>
+</html>
